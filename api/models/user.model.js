@@ -16,12 +16,6 @@ const userSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-    bookedVisits: {
-      type: JSON,
-    },
-    favResidency: {
-      type: String,
-    },
   },
   { timestamps: true }
 )
